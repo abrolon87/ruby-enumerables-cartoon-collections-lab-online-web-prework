@@ -1,4 +1,4 @@
-dwarves = [
+dwarves = w%[
   Doc
   Dopey
   Bashful
