@@ -1,11 +1,10 @@
-def roll_call_dwarves(array)
-  hash = Hash.new
-  %w(array).each_with_index { |item, index|
-  hash[item] = index
-  }
-  puts hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}# code an argument here
-  # Your code here
+def roll_call_dwarves(dwarves)
+  dwarves.each_with_index do |dwarf, index|
+    puts "#{index + 1}. #{dwarf}"
+  end
 end
+
+roll_call_dwarves(dwarves)
 
 def summon_captain_planet# code an argument here
   # Your code here
